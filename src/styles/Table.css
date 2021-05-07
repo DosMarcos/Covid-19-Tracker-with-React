@@ -1,0 +1,26 @@
+/* Globaler Style */
+.table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 60vh;
+    color: wheat;    
+}
+
+/* Optimale Breite für jede Reihe */
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Abstand um jede Zelle */
+.table td {
+    padding: 0.5rem;
+}
+
+/* Jede ungerade Reihe mit anderer Farbe hinterlegen */
+.table tr:nth-of-type(odd) {
+    background-color:dimgray;
+    
+}
